@@ -42,6 +42,10 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  --button-color: #00bcd4; /* Cyan */
+  --button-hover-color: #ff9800; /* Orange */
+  --button-text-color: #ffffff; /* White for contrast */
+
   #light-toggle-system {
     padding-left: 10px;
     padding-top: 12px;
@@ -98,18 +102,8 @@ html[data-theme="dark"] {
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --button-color: #00acc1; /* Slightly darker Cyan */
+  --button-hover-color: #f57c00; /* Slightly darker Orange */
 
   .repo-img-light {
     display: none;
@@ -155,3 +149,23 @@ html[data-theme-setting="light"] {
     display: block;
   }
 }
+
+/*******************************************************************************
+ * Button Styles
+ ******************************************************************************/
+button, 
+button:focus, 
+button:active {
+  color: var(--button-text-color);
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover-color);
+}
+

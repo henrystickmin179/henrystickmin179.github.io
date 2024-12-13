@@ -12,4 +12,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Hello, I am Henry Stickmin, a second year undergrad majoring in mathematics. I like probability theory and combinatorics. I also enjoy LaTeXing documents and listening to music (rock and metal both alike)
+Hello, I am Henry Stickmin, a second year undergrad majoring in mathematics. I like probability theory and combinatorics. 
